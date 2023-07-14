@@ -1,3 +1,5 @@
+The Kindle Epub fixing tool but ported to a chrome extension, to allow easier usage when on a website.
+
 # Kindle EPUB Fix
 
 Amazon Send-to-Kindle service has accepted EPUB, however, for historical reason
