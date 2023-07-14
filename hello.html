@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Amazon Kindle EPUB Fix</title>
+    <script src="zip.min.js"></script>
+    <script src="FileSaver.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <style>
+        ul.scroll {
+            max-height: 10rem;
+            overflow: auto;
+            word-break: break-word;
+        }
+    </style>
+</head>
+  <body>
+    <h2>Select your EPUB</h2>
+    <form>
+        <input id="file" type="file" accept=".epub" multiple>
+        <small>Multiple files allowed.</small>
+    </form>
+
+    <div id="main_status" style="display:none;color:blue;margin:1em 0">
+        Processing...
+    </div>
+    <div id="output"></div>
+
+    <button id="btnDlAll" style="display:none;margin:1em 0">Download all as zip</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

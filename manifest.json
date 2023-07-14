@@ -1,0 +1,10 @@
+{
+  "name": "Kindle Converter",
+  "description": "Convert Epubs into the format approirate for Kindle Automaticaly from your browser extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
